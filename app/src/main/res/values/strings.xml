@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DummyBrowseApp</string>
+    <string name="back">BACK</string>
+    <string name="bookmark">BOOKMARK</string>
+    <string name="my_bookmark">My Bookmarks</string>
+    <string name="forward">FORWARD</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_toast_message">press again to exit</string>
+    <string name="img_go">Go</string>
+    <string name="et_hint_type">Search Here...</string>
+    <string name="go">GO</string>
+    <string name="str_url">https://www.google.com</string>
+    <string name="no_bookmark">There are no bookmarks at the moment</string>
+    <string name="str_whoops">WHOOPS</string>
+</resources>

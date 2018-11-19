@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_10">10dp</dimen>
+    <dimen name="view_8">8dp</dimen>
+    <dimen name="view_12">12dp</dimen>
+    <dimen name="view_15">15dp</dimen>
+    <dimen name="size_18">18sp</dimen>
+    <dimen name="view_55">55dp</dimen>
+    <dimen name="view_35">35dp</dimen>
+    <dimen name="view_7">7dp</dimen>
+    <dimen name="view_56">56dp</dimen>
+    <dimen name="size_20">20sp</dimen>
+    <dimen name="size_16">16sp</dimen>
+</resources>

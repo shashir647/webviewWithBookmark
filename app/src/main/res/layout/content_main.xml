@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/rel_serach_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_weight=".8"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextbox"
+            android:ems="10"
+            android:hint="@string/et_hint_type"
+            style="@style/Widget.Conversations.EditText"
+            android:imeOptions="flagNoExtractUi|actionSend"
+            android:inputType="textShortMessage|textMultiLine|textCapSentences"
+            android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="12dp">
+            <requestFocus/>
+        </EditText>
+
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_go"
+        android:layout_width="55dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:text="GO"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="18sp"
+
+        android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
